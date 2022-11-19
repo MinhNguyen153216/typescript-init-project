@@ -1,0 +1,10 @@
+// -----Variables, Mixin-----
+// ---Variables
+
+// ---Mixin
+@mixin text-config($fw, $fs, $line-h, $color) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $line-h;
+  color: $color;
+}
